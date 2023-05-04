@@ -1,0 +1,75 @@
+.card-grid {
+    display: grid;
+    align-items: center;
+    height: 500px;
+    width: 300px;
+    perspective: 1000px;
+    margin-left: 110px;
+    padding: 20px;
+
+}
+
+.card {
+    /* Sizing */
+    height: 100%;
+    width: 100%;
+
+    transform-style: preserve-3d;
+
+    /* Content Alignment */
+    position: relative;
+
+    /* Styling */
+    border-radius: 5px;
+    border: 5px solid white;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 1000ms;
+
+
+}
+
+.card:hover {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+.flip {
+    transform: rotateY(180deg);
+
+}
+
+/* Position the front and back side */
+.front,
+.back {
+    /* Sizing */
+    height: 100%;
+    width: 100%;
+
+    /* Content Aligment */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Content Styling */
+    color: black;
+
+    /* Alignment */
+    position: absolute;
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+/* Style the front side */
+.front {
+    background-color: beige;
+
+    transform: rotateY(0);
+}
+
+/* Style the back side */
+.back {
+    background-color: rgb(175, 236, 252);
+
+    transform: rotateY(180deg);
+}
