@@ -30,10 +30,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='video-walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<a href="https://www.loom.com/share/5edc8807bb2f4847994d9a6535e6a7e4">
+    <p>Video Walkthrough</p>
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/5edc8807bb2f4847994d9a6535e6a7e4-with-play.gif">
+  </a>
+
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ScreenToGif
+GIF created with Loom
 
 
 ## Notes
