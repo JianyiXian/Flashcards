@@ -30,6 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+<<<<<<< HEAD
 <a href="https://www.loom.com/share/5edc8807bb2f4847994d9a6535e6a7e4">
     <p>Video Walkthrough</p>
     <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/5edc8807bb2f4847994d9a6535e6a7e4-with-play.gif">
@@ -38,6 +39,12 @@ Here's a walkthrough of implemented user stories:
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Loom
+=======
+<img src='flashcards/src/video-walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ScreenToGif
+>>>>>>> 3099dc07217a5f77633581d6dc6769a1868baf6a
 
 
 ## Notes
